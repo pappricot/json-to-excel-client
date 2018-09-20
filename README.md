@@ -1,6 +1,6 @@
 # JSOn-to-Excel (aka Scrape Me)
 
-Inspired by my need to automate my daily manual web scrapping for work, I present an example of an automated web scrapping app that will also import the findings to an excel spreadsheet.
+Inspired by my need to automate my daily manual web scrapping for work, I present an example of an automated web scrapping app based on the term searched that will also import the findings to an excel spreadsheet.
 
 Live link: https://json-to-excel-client.herokuapp.com/
 
@@ -32,6 +32,5 @@ Both client and server sides (make sure to enter the right client and server fol
 yarn test
 ```
 Follow instruction in the console to choose options for testing (e.g press "a" to run all test)
-
 
 

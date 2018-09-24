@@ -13,7 +13,7 @@ export class Table extends React.Component {
 		{
 			Header: "Link",
 			accessor: "link", // String-based value accessors!
-			Cell: props => <a href={props.value} className='link'>{props.value} </a> // Custom cell components
+			Cell: props => <a href={props.value} target="_blank" className='link'>{props.value} </a> // Custom cell components
 		},
 		{
 			Header: "Date",
